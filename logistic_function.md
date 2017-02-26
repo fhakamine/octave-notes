@@ -11,7 +11,9 @@ title: Logistic (or Sigmoid) function
 - O resultado é sempre $ 0 \leq h_\theta (x) \leq 1 $.
 
 ### Math Formula
-$ h_\theta (x) = g(\theta^T x) = \dfrac{1}{1 + e^{-(\theta^T x)}} $
+$$
+h_\theta (x) = g(\theta^T x) = \dfrac{1}{1 + e^{-(\theta^T x)}} 
+$$
 
 ### Octave Snippet
 ``` octave
